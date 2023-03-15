@@ -8,4 +8,6 @@ function order(words){
     let final = [];
     let numLocate = words.match(/1-9/g);
     let wordArray = words.split('');
+
+    
   }
