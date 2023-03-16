@@ -9,5 +9,6 @@ function order(words){
     let numLocate = words.match(/1-9/g);
     let wordArray = words.split('');
 
+    if (words.length === 0) return words;
     
   }
