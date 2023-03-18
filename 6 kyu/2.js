@@ -10,5 +10,9 @@ function order(words){
     let wordArray = words.split('');
 
     if (words.length === 0) return words;
+
+    wordArray.map((item, i) => {
+
+    });
     
   }
