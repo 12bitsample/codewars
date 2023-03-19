@@ -12,7 +12,7 @@ function order(words){
     if (words.length === 0) return words;
 
     wordArray.map((item, i) => {
-
+      let index = numLocate.indexOf(i+1);
     });
     
   }
