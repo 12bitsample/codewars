@@ -13,6 +13,7 @@ function order(words){
 
     wordArray.map((item, i) => {
       let index = numLocate.indexOf(i+1);
+      final.push(wordArray[index]);
     });
     
   }
