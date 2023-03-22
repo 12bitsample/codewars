@@ -5,16 +5,8 @@
 // If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
 
 function order(words){
-  let final = [];
-  let numLocate = words.match(/1-9/g);
-  let wordArray = words.split('');
-
-  if (words.length === 0) return words;
-
-  wordArray.map((item, i) => {
-    let index = numLocate.indexOf(i+1);
-    final.push(wordArray[index]);
+  return words.split('').sort(function(a,b) {
+    
   })
-  return final.join(' ');
   
 }
